@@ -7,8 +7,8 @@
 ===
 基于北京市海淀区学院路的地图（左图），
 选取中国农业大学、北京林业大学、中国矿业大学、北京语言大学四所高校，构建模拟仿真场景（右图）。<br>
-![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/readme_pic/101.jpg)
-![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/readme_pic/102.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/101.jpg)
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/102.jpg)<br>
 在仿真场景中，四个校徽对应四所学校，移动的有色小点对应学校师生，右侧是医院，校医院响应以后会将病患收治至医院并隔离。<br>
 四所学校的健康者分别为暗红、草绿、暗青、暗紫色，患者潜伏期为黄色、发病期为红色、隔离期为蓝色。<br>
 封校时，师生只能在代表本校的框内活动；取消封校时，所有师生可以自由出入四所学校的区域。<br>
@@ -46,16 +46,49 @@ Constants.java：增加三个模拟参数，分别控制是否封校、是否为
 ---
 场景一：<br>
 单个学校爆发疫情 | 不封校 | 不戴口罩 | 医院响应及时 | 2000人中有20位初始感染者<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/311.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/312.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/313.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/314.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/315.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/316.jpg)<br>
 场景二：<br>
 单个学校爆发疫情 | 封校 | 不戴口罩 | 医院响应及时 | 2000人中有20位初始感染者<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/321.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/322.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/323.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/324.jpg)<br>
 场景三：<br>
 四所学校爆发疫情 | 不封校 | 不戴口罩 | 医院响应及时 | 2000人中有20位初始感染者<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/331.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/332.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/333.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/334.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/335.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/336.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/337.jpg)<br>
 场景四：<br>
 四所学校爆发疫情 | 封校 | 不戴口罩 | 医院响应及时 | 2000人中有20位初始感染者<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/341.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/342.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/343.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/344.jpg)<br>
 场景五：<br>
 四所学校爆发疫情 | 封校 | 不戴口罩 | 医院响应不及时 | 2000人中有20位初始感染者<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/351.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/352.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/353.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/354.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/355.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/356.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/357.jpg)<br>
 场景六：<br>
 四所学校爆发疫情 | 封校 | 戴口罩 | 医院响应及时 | 2000人中有20位初始感染者<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/361.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/362.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/363.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/364.jpg)<br>
+![image](https://github.com/sheepbaabaa/VirusBroadcast-Campus/tree/main/readme_pic/365.jpg)<br>
 
 3.3仿真结果分析
 ---
